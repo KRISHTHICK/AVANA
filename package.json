@@ -1,0 +1,17 @@
+{
+  "name": "avana",
+  "version": "1.0.0",
+  "description": "A multi-agent Legal Documents platform",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.33",
+    "autoprefixer": "^10.4.17"
+  }
+}
